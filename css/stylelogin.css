@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('ressources/batimentM2L.jpg');
+    background-size: cover;
+}
+
+.box{
+    position: absolute;
+    width:300px;
+    padding:30px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: whitesmoke;
+    text-align: center;
+    border: 5px solid blue;
+    border-radius: 30px;
+}
+
+.box h1{
+    color:black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input[type="text"],.box input[type="password"],.box input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid black;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    border-radius: 14px;
+    transition: 0.25px;
+}
+
+.box input[type="text"],.box input[type="password"] focus{
+    width: 270px;
+    border-color: black;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid blue;
+    padding: 14px 10px;
+    outline: none;
+    color: blue;
+    font-weight: bolder;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: green;
+    color: whitesmoke;
+}
+.googleconnect{
+    font-weight: bold;
+}
